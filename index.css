@@ -1,0 +1,192 @@
+ 
+main {
+    background-image: url("multimedia/morroco.jpg");
+    font-family:'Times New Roman', Times, serif;
+    padding: 20px;
+}
+
+h2 {
+    color: rgb(110, 56, 56);
+}
+
+aside {
+    background-color: rgba(240, 248, 255, 0.738);
+   
+    padding: 10px;
+    margin-top: 1px;
+    width: 300px;
+    border-radius: 20px;
+    
+}
+
+table {
+    border: solid;
+    background-color: rgb(231, 231, 230);
+    padding: 5%;
+}
+
+ul {
+    list-style-type: none;
+    width: 200px;
+    padding: 0;
+    background-color: aliceblue;
+    border: solid;
+    margin-top: 1px;
+    margin-left: 80%;
+    text-align: center;
+    
+    
+}
+
+dt a {
+    background-color: rgba(122, 17, 17, 0.375);
+    color: rgb(255, 255, 255);
+}
+
+li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-bottom: solid;
+}
+
+li a:hover {
+    background-color: rgb(206, 197, 197);
+    color: black;
+}
+
+.activo {
+    background-color: rgb(216, 193, 164);
+    color:black;
+}
+
+
+
+td {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+
+.bloque {
+    background-color: aliceblue;
+    margin-right: 20%;
+    margin-left: 20%;
+    position:relative;
+    text-align: center; 
+    padding-left: 13%;
+    padding-right: 10%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+
+}
+
+
+.bloque2 {
+    background-color: aliceblue;
+    padding: 10%;
+    margin: auto;
+    text-align: center;
+    width: 150%;
+
+   
+}
+
+.bloque3 {
+    background-color: aliceblue;
+    padding: 10%;
+    width: 95%;
+    text-align: center;
+}
+
+.bloquefinal {
+    background-color: aliceblue;
+    padding: 10%;
+    
+}
+
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+    
+   
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 15px;
+    position: relative;
+    
+    
+
+}
+
+.column1 {
+    float:left;  
+    width: 35%;
+    padding: 15px;
+    
+    
+}
+
+@media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+}
+
+caption {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: rgba(240, 248, 255, 0.852);
+    text-align: center;
+}
+
+/*Formulario*/
+
+.mainformulario {
+    padding: 10% 15% 10% 15%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+fieldset  {
+    padding: 5%;
+    border: solid;
+    background-color: rgba(240, 240, 234, 0.759);
+    width: 30%;
+    margin-left: 30%;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.subtitulo {
+    text-align: center;
+    text-decoration: solid;
+    text-decoration: underline;
+}
+
+label {
+    text-transform: uppercase;
+    text-decoration: solid;
+}
+
+
+
+
+
+
+
+
+
+
+
